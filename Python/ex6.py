@@ -29,7 +29,9 @@ print joke_evaluation % hilarious
 #"TypeError: not all arguments converted during string formatting" means that there is more % formatters in the strings than the variables
 # %r is used for debugging purposes since it displayed raw data
 
+
 w = "This is the left side of..."
 e = "a string with a right side."
 
+# This is adding two stirngs together
 print w + e
