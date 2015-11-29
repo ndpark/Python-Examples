@@ -1,3 +1,6 @@
+"""Exercise 14: Prompting and Passing
+Basic stuff like using inputs and stuff"""
+
 from sys import argv
 
 script, user_name = argv
@@ -22,4 +25,4 @@ Alright, so you said %r about liking me.
 You live in %r. Not sure where that is.
 And you have a %r computer. Nice.
 you are %r
-""" % (likes, lives, computer, swag)
+ % (likes, lives, computer, swag)

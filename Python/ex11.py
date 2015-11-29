@@ -1,3 +1,6 @@
+"""Exercise 11: Asking Questions
+Practice using inputs"""
+
 print "How old are you",
 age = raw_input()
 print "How tall are you",

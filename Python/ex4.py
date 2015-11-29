@@ -1,3 +1,7 @@
+"""Variables and Names
+practice using variables and names""""
+
+
 cars = 100
 space_in_a_car = 4.0145 #if i add a decimal point, the result will have decimal point
 drivers = 30

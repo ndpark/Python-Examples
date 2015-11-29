@@ -1,3 +1,8 @@
+"""Exercise 10: What was that?
+Using backslash characters """
+
+
+
 # \n is basically like C++ it stands for "new line character"
 # '\\' will printout one double slash
 # Another important escape sequence is escaping a single quote or double quote.

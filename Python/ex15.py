@@ -1,3 +1,9 @@
+"""Exercise 15: Reading files
+Practice using filestream. 
+First of all, use python to open a file.
+open() function
+read() reads the file"""
+
 #Use of argv to get the filename
 
 from sys import argv

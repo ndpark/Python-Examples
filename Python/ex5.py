@@ -1,3 +1,9 @@
+""" Exercise 5: More variables and printing
+This exercise helps using string;
+There's two ways that you can input variables, as strings using % operator, and using variable
+name just like how we did in exercise 4."""
+
+
 my_name = 'Zed A. Shaw'
 my_age = 35 # not a lie
 my_height = 74 #inches

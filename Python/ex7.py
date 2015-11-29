@@ -1,3 +1,7 @@
+"""Exercise 7: More printing
+You can use single quotes to pass a string into a string rathr than putting a variable
+"""
+
 print "Mary had a little lamb."
 print "Its fleece was as white as %s." % 'snow'
 print "And everywhere that Mary went."

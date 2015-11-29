@@ -1,3 +1,6 @@
+"""Exercise 8: Printing. Printing
+This exercise focuses on priting using strings"""
+
 formatter = "%r %r %r %r" #Formatter 'formats' patterns
 
 print formatter % (1, 2, 3, 4)

@@ -1,3 +1,8 @@
+"""Exercise 6: Strings and Text
+Strings can have strings inside them, like stringception. Look at line 13"""
+
+
+
 #Exercise 1 : Comment on everything
 
 # This string changes %d with the number 10, making it display that number

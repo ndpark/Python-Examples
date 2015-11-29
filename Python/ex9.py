@@ -1,3 +1,6 @@
+"""Exercise 9: Printing.Printing.Printing.
+More practice using print"""
+
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug" #Similar to C++, where \n will start a new line
 

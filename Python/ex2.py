@@ -1,3 +1,6 @@
+"""Exercise 2, Comments and Pound Characters
+Practice using comments """
+
 #This is a commment
 #Basically anything after # is ignored by python
 
@@ -7,3 +10,7 @@ print "I could have a code like this." #This would be ignored
 #print "This won't run"
 
 print "This will run"
+
+
+
+

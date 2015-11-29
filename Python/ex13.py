@@ -1,3 +1,7 @@
+"""Exercise 13: Pramaeters, Unpacking, Variables.
+Practice using arguments and importing modules."""
+
+
 from sys import argv #IMPORT will add features (modules) from Python modules set
 
 #script, first, second, third = argv #'unpacks and assigns' argv to four variables

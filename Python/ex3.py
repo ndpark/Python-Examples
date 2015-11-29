@@ -1,4 +1,10 @@
-# This displays "I will not count my chickens"
+""" Exercise 3 : Numbers and Math
+Modulus will send the remainder
+Using decimal points after a number will display a float number."""
+
+#, acts as <<
+
+# This displays "I will now count my chickens"
 print "I will now count my chickens:"
 # This counts the hen by doing the equation, while also displaying Hens
 print "Hens", 25 + 30/6

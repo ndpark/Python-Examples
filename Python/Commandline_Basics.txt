@@ -1,0 +1,87 @@
+Commandline Basics
+
+pwd - Print working directory
+hostname - my computer's network name
+mkdir - make directory
+cd - change directory
+ls - list directory
+rmdir - remove directory
+pushd - push directory
+popd - pop directory
+cp - copy a file or directory
+robocopy - robust copy
+mv - move a file or directory
+more - page through a file
+type - print the whole file
+forfiles - run a command on lots of files
+dir -r - find files
+select-string - find things inside files
+help - read a manual page
+helpctr - find what man page is approporiate
+echo - print some arguments
+set - export.set a new environment variable
+exit - exit the shell
+runas - super user 
+
+	Chapter 2: PWD (pwd)
+**pwd will print out where you are
+
+	Chapter 3: If you get lost (cd~)
+cd ~ will go back to home (directory where you started)
+
+	Chapter 4: Making directory (mkdir)
+mkdir 'directory name'
+**Can also be used for multiple directories such as:
+mkdir directory1 \ directory2 \ directory3 \ etc
+
+#Useful tip: / works as well as \
+
+	Chapter 5: Change directory (cd)
+cd 'directory'
+cd .. will move up a directory 
+cd ~ will go to home directory
+
+	Chapter 6: Lists (ls)
+**ls lists all the files and directories within a directory
+**dir -r does the same thing
+
+	Chapter 7: Remove directory (rmdir)
+rmdir 'directory'
+
+	Chapter 8: Move around using pushd and popd (pushd and popd)
+pushd 'directory'
+popd 'directory'
+**pushd will save the directory that you are currently at, and then go to the directory
+**that you typed in
+**popd goes back to the directory you were originally at
+
+	Chapter 9: Make Empty Files (new-item)
+new-item 'name'.(type) -type file
+Ex) new-item iamcool.txt -type file
+
+	Chapter 10: Copy a file (cp)
+cp file_you_want_copied.txt file_you_want_copied_onto.txt
+
+**It also works for directories, or file into directory or whatever
+
+	Chapter 11: Move a file (mv)
+**same as copying a file
+
+	Chapter 12: View a file (more)
+less test.txt
+To get out: q
+or 
+more test.txt
+to exit: q
+**Use more because Windows doesn't have less lmao
+
+	Chapter 13: Stream a file (cat)
+cat test.txt
+**Can also open two formats
+cat test.txt,test1.txt
+
+	Chapter 14: Removing a file
+rm 'file/directory'
+
+	Chapter 15: Exit
+exit
